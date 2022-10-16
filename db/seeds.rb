@@ -9,7 +9,7 @@ student_00 = Student.create({email: "john_doe@domain.com", username: "john_doe20
 student_01 = Student.create({email: "jane_doe@domain.com", username: "jane_doe2022"})
 
 goal_00 = Goal.create({summary: "I want to spend less money on food", resource: "www.google.com"})
-goal_01s = Goal.create({summary: "I want to spend less money on going out on entertainment", resource: "www.facebook.com"})
+goal_01 = Goal.create({summary: "I want to spend less money on going out on entertainment", resource: "www.facebook.com"})
 
-# calendar_00 = Calendar.create({student_id: 1, goal_id: 1, date: "", expense_type:"", comment:"", daily_budget:"", actual_spending:"", spending_status:""})
-# calendar_00 = Calendar.create({student_id: 1, goal_id: 1, date: "", expense_type:"", comment:"", daily_budget:"", actual_spending:"", spending_status:""})
+# calendar_00 = Calendar.create({student_id: student_00.id, goal_id: goal_00.id, date: "10/01/2022", expense_type:"Food", comment:"eating out", daily_budget:"$20", actual_spending:"$31.34", spending_status:"Deficit"})
+# calendar_01 = Calendar.create({student_id: student_01.id, goal_id: goal_01.id, date: "10/02/2022", expense_type:"Transportation", comment:"train", daily_budget:"$12.50", actual_spending:"$6.75", spending_status:"Saved"})

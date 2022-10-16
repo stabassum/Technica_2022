@@ -1,4 +1,4 @@
-class EventsController < ApplicationController
+class GoalsController < ApplicationController
 
     def index
         
