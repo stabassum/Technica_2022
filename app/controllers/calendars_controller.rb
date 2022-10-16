@@ -1,31 +1,31 @@
 class CalendarsController < ApplicationController
 
-    def index
+    # def index
 
-    end
+    # end
 
     def show
+        @calendar = Calendar.find(params[:id])
+    end
+
+    # def new
         
-    end
+    # end
 
-    def new
-        
-    end
+    # def create
 
-    def create
-
-    end
+    # end
 
     def edit 
-      
+        @calendar = Calendar.find(params[:id])
     end
 
-    def update
+    # def update
        
-    end
+    # end
 
-    def destroy
+    # def destroy
      
-    end
+    # end
 
 end
