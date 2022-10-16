@@ -1,4 +1,4 @@
-class Student < applicationRecord
+class Student < ApplicationRecord
     has_secure_password
 
     has_many :calendars
