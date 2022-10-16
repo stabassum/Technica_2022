@@ -1,11 +1,11 @@
 class GoalsController < ApplicationController
 
     # def index
-            
+        
     # end
 
     def show 
-        @goals = Goal.all
+        @goal = Goal.find(params[:id])
     end
 
     # def new
