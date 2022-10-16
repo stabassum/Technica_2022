@@ -8,8 +8,8 @@
 student_00 = Student.create({email: "john_doe@domain.com", username: "john_doe2022"})
 student_00 = Student.create({email: "jane_doe@domain.com", username: "jane_doe2022"})
 
-# goal_00 = Goal.create({summary: "I want to spend less money on food", resource: "www.google.com"})
-# goal_00 = Goal.create({summary: "I want to spend less money on going out on entertainment", resource: "www.facebook.com"})
+goal_00 = Goal.create({summary: "I want to spend less money on food", resource: "www.google.com"})
+goal_00 = Goal.create({summary: "I want to spend less money on going out on entertainment", resource: "www.facebook.com"})
 
 # calendar_00 = Calendar.create({student_id: 1, goal_id: 1, date: "", expense_type:"", comment:"", daily_budget:"", actual_spending:"", spending_status:""})
 # calendar_00 = Calendar.create({student_id: 1, goal_id: 1, date: "", expense_type:"", comment:"", daily_budget:"", actual_spending:"", spending_status:""})
